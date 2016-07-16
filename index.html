@@ -9,7 +9,14 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Displazia de șold</title>
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="Displazia de șold: să verificăm toți copiii!" />
+    <meta property="og:description" content="Displazia de șold este cea mai frecventă problemă ortopedică pe care o au bebelușii și cu cât este depistată și tratată mai devreme,
+    cu atât șansele de vindecare sunt mai mari." />
+    <meta property="og:image" content="http://displaziadesold.ro/img/baby-large.jpg" />
+    <title>Displazia de șold: să verificăm toți copiii!</title>
+
+    <link rel="icon" href="img/hip.jpg">
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -107,7 +114,7 @@
         <hr class="featurette-divider">
 
         <div class="featurette" id="cepot">
-            <a href="#"><img class="featurette-image img-circle img-responsive pull-left" src="img/facebook-icon.png"></a>
+            <a href="#"><img class="featurette-image img-circle img-responsive pull-left fb-share" src="img/facebook-icon.png"></a>
             <h2 class="featurette-heading">Ce pot
                 <span class="text-muted">eu să fac?</span>
             </h2>
@@ -118,7 +125,7 @@
                 spuneți-le să verifice șoldurile copilului la doctor, preferabil la câteva săptămâni după naștere.
             </p>
             <p class="lead">
-                Pentru a informa cât mai multe persoane, <a href="#">răspândiți această pagină pe Facebook</a>.
+                Pentru a informa cât mai multe persoane, <a href="#" class="fb-share">răspândiți această pagină pe Facebook</a>.
             </p>
         </div>
 
@@ -228,18 +235,18 @@
         <hr class="featurette-divider">
 
         <div class="featurette" id="contact">
-            <img class="featurette-image img-circle img-responsive pull-left" src="img/contact.png">
+            <img class="featurette-image img-circle img-responsive pull-left" src="img/bubble-of-chat.jpg">
             <h2 class="featurette-heading">Sugestii
                 <span class="text-muted">și contact</span>
             </h2>
             <p class="lead">
-                Am realizat acest site din dorința de a face cunoscută această afecțiune și pentru ca toți copiii să fie verificați.
+                Am realizat acest site din dorința de a face cunoscută această afecțiune astfel încât toți copiii să fie verificați.
                 Suntem doar părinți, nu avem studii de specialitate și vă recomandăm să consultați întotdeauna chirurgul ortoped pentru o părere avizată.
             </p>
             <p class="lead">
                 Pentru informații suplimentare există multe resurse online,
                 de exemplu pe <a href="http://www.sfatulmedicului.ro/Oase-si-articulatii--membrele-/luxatia-congenitala-de-sold_1607">Sfatulmedicului.ro</a> (în română)
-                sau <a href="http://hipdysplasia.org/">Hipdysplasia.org</a> (în engleză).
+                sau <a href="http://hipdysplasia.org/developmental-dysplasia-of-the-hip/">Hipdysplasia.org</a> (în engleză).
             </p>
             <p class="lead">
                 Pentru sugestii ne puteți contacta <a href="http://goo.gl/forms/OS1N1yIZzhwr1UQc2">aici</a>. Vă mulțumim pentru interes.
@@ -247,7 +254,6 @@
         </div>
 
         <hr class="featurette-divider">
-
 
         <!-- Footer -->
         <footer>
@@ -266,6 +272,23 @@
 
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
+
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+        ga('create', 'UA-2716740-14', 'auto');
+        ga('send', 'pageview');
+    </script>
+
+    <script>
+        $(".fb-share").on("click",function() {
+            var fbpopup = window.open("https://www.facebook.com/sharer/sharer.php?u=http://displaziadesold.ro", "pop", "width=600, height=400, scrollbars=no");
+            return false;
+        });
+    </script>
 
 </body>
 
